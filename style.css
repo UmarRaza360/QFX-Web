@@ -124,7 +124,7 @@
   background: linear-gradient(to top, #38A592 0%, #000000 100%);
 }
 
-#projectsBtn{
+.projectsBtn{
   width: 100px;
   background-color: black;
   color: white;
@@ -151,3 +151,5 @@
 .footer-box {
   background: #000;
 }
+
+
