@@ -120,3 +120,34 @@
   transform: translateY(-8px); /* Slight lift on hover */
   box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.25); /* Soft shadow */
 }
+.gradient-section1 {
+  background: linear-gradient(to top, #38A592 0%, #000000 100%);
+}
+
+#projectsBtn{
+  width: 100px;
+  background-color: black;
+  color: white;
+  border-radius: 40px;
+  border: 2px solid black;
+}
+
+.whyChooseHover{
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  overflow: hidden;
+}
+
+.whyChooseHover:hover {
+  transform: translateY(-8px); /* Slight lift on hover */
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.25); /* Soft shadow */
+
+}
+
+.footer-logo {
+  width: 300px;
+  height: auto;      /* keeps aspect ratio */
+}
+
+.footer-box {
+  background: #000;
+}
